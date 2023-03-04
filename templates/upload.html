@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>
+      Upload Picture
+    </title>
+    
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+<body>
+    
+    <h1>Upload a Picture</h1>
+    
+    <h2> </h2>
+</div>
+<hr>
+
+
+<div class="container">
+
+
+<div class="card" style="width:400px">
+   
+  <div class="card-body ">
+    <form action="/upload" method="post" enctype="multipart/form-data">
+    <p class="card-text">Choose a picture to upload</p>
+      <input type="file" name="file" value="file">
+      <hr>
+    <input type="submit" name="upload" value="Upload" class="btn btn-success">
+    </form>
+   
+  </div>
+</div>
+<br>
+</div>
+<a href="{{url_for('login')}}">Logout</a><br>
+
+</body>
+</html>
